@@ -13,3 +13,5 @@ c:\users\albin\source\repos\AutoServiceApp\AutoServiceApp\obj\Debug\AutoServiceA
 C:\Users\Albin\source\repos\AutoServiceApp\AutoServiceApp\obj\Debug\AutoServiceApp.Stock.resources
 C:\Users\Albin\source\repos\AutoServiceApp\AutoServiceApp\obj\Debug\AutoServiceApp.AddNewProduct.resources
 C:\Users\Albin\source\repos\AutoServiceApp\AutoServiceApp\obj\Debug\AutoServiceApp.Service.resources
+C:\Users\Albin\source\repos\AutoServiceApp\AutoServiceApp\obj\Debug\AutoServiceApp.Costumer.resources
+C:\Users\Albin\source\repos\AutoServiceApp\AutoServiceApp\obj\Debug\AutoServiceApp.AddNewClient.resources
