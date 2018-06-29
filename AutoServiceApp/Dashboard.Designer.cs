@@ -42,7 +42,7 @@
             this.btnPayment.Name = "btnPayment";
             this.btnPayment.Size = new System.Drawing.Size(149, 57);
             this.btnPayment.TabIndex = 3;
-            this.btnPayment.Text = "Make payment";
+            this.btnPayment.Text = "Изврши фактура";
             this.btnPayment.UseVisualStyleBackColor = true;
             // 
             // btnReport
@@ -51,7 +51,7 @@
             this.btnReport.Name = "btnReport";
             this.btnReport.Size = new System.Drawing.Size(149, 57);
             this.btnReport.TabIndex = 3;
-            this.btnReport.Text = "Print report";
+            this.btnReport.Text = "Печати извештај";
             this.btnReport.UseVisualStyleBackColor = true;
             // 
             // timer1

@@ -15,7 +15,7 @@ namespace AutoServiceApp
         public Main()
         {
             InitializeComponent();
-            selectedMenu.Text = "Dashboard";
+            selectedMenu.Text = "Почетна";
             dashboard.Visible = true;
             costumer.Visible = false;
             stock.Visible = false;
@@ -39,7 +39,7 @@ namespace AutoServiceApp
 
         private void button3_Click(object sender, EventArgs e)
         {
-            selectedMenu.Text = "Stock";
+            selectedMenu.Text = "Магацин";
             dashboard.Visible = false;
             costumer.Visible = false;
             stock.Visible = true;
@@ -48,7 +48,7 @@ namespace AutoServiceApp
 
         private void button2_Click(object sender, EventArgs e)
         {
-            selectedMenu.Text = "Service";
+            selectedMenu.Text = "Сервис";
             dashboard.Visible = false;
             costumer.Visible = false;
             stock.Visible = false;
@@ -57,7 +57,7 @@ namespace AutoServiceApp
 
         private void button4_Click(object sender, EventArgs e)
         {
-            selectedMenu.Text = "Dashboard";
+            selectedMenu.Text = "Почетна";
             dashboard.Visible = true;
             costumer.Visible = false;
             stock.Visible = false;
@@ -66,7 +66,7 @@ namespace AutoServiceApp
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            selectedMenu.Text = "Custumer";
+            selectedMenu.Text = "Клиенти";
             dashboard.Visible = false;
             costumer.Visible = true;
             stock.Visible = false;

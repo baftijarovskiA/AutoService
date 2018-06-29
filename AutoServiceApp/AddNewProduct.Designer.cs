@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.tbQuantity = new System.Windows.Forms.NumericUpDown();
-            this.tbPrice = new System.Windows.Forms.NumericUpDown();
+            this.nrQuantity = new System.Windows.Forms.NumericUpDown();
+            this.nrPrice = new System.Windows.Forms.NumericUpDown();
             this.tbDescription = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -42,14 +42,14 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tbQuantity)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbPrice)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nrQuantity)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nrPrice)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.tbQuantity);
-            this.groupBox1.Controls.Add(this.tbPrice);
+            this.groupBox1.Controls.Add(this.nrQuantity);
+            this.groupBox1.Controls.Add(this.nrPrice);
             this.groupBox1.Controls.Add(this.tbDescription);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
@@ -63,31 +63,31 @@
             this.groupBox1.Size = new System.Drawing.Size(294, 218);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Product";
+            this.groupBox1.Text = "Продукт";
             // 
-            // tbQuantity
+            // nrQuantity
             // 
-            this.tbQuantity.Location = new System.Drawing.Point(88, 98);
-            this.tbQuantity.Maximum = new decimal(new int[] {
+            this.nrQuantity.Location = new System.Drawing.Point(88, 98);
+            this.nrQuantity.Maximum = new decimal(new int[] {
             -1530494976,
             232830,
             0,
             0});
-            this.tbQuantity.Name = "tbQuantity";
-            this.tbQuantity.Size = new System.Drawing.Size(200, 20);
-            this.tbQuantity.TabIndex = 3;
+            this.nrQuantity.Name = "nrQuantity";
+            this.nrQuantity.Size = new System.Drawing.Size(200, 20);
+            this.nrQuantity.TabIndex = 3;
             // 
-            // tbPrice
+            // nrPrice
             // 
-            this.tbPrice.Location = new System.Drawing.Point(88, 72);
-            this.tbPrice.Maximum = new decimal(new int[] {
+            this.nrPrice.Location = new System.Drawing.Point(88, 72);
+            this.nrPrice.Maximum = new decimal(new int[] {
             -1530494976,
             232830,
             0,
             0});
-            this.tbPrice.Name = "tbPrice";
-            this.tbPrice.Size = new System.Drawing.Size(200, 20);
-            this.tbPrice.TabIndex = 2;
+            this.nrPrice.Name = "nrPrice";
+            this.nrPrice.Size = new System.Drawing.Size(200, 20);
+            this.nrPrice.TabIndex = 2;
             // 
             // tbDescription
             // 
@@ -102,27 +102,27 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(6, 131);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 13);
+            this.label5.Size = new System.Drawing.Size(36, 13);
             this.label5.TabIndex = 0;
-            this.label5.Text = "Description:";
+            this.label5.Text = "Опис:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(6, 105);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 13);
+            this.label4.Size = new System.Drawing.Size(58, 13);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Total Quantity:";
+            this.label4.Text = "Количина:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(6, 79);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 13);
+            this.label3.Size = new System.Drawing.Size(36, 13);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Product Price:";
+            this.label3.Text = "Цена:";
             // 
             // tbName
             // 
@@ -136,9 +136,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(6, 53);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 13);
+            this.label2.Size = new System.Drawing.Size(32, 13);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Product Name:";
+            this.label2.Text = "Име:";
             // 
             // tbCode
             // 
@@ -152,9 +152,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(29, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Code:";
+            this.label1.Text = "Код:";
             // 
             // btnSave
             // 
@@ -162,7 +162,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(120, 28);
             this.btnSave.TabIndex = 1;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "Зачувај";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
@@ -172,7 +172,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(120, 28);
             this.btnCancel.TabIndex = 1;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "Откажи";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -188,11 +188,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AddNewProduct";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Add Product";
+            this.Text = "Додади продукт";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tbQuantity)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbPrice)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nrQuantity)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nrPrice)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -210,7 +210,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.NumericUpDown tbQuantity;
-        private System.Windows.Forms.NumericUpDown tbPrice;
+        private System.Windows.Forms.NumericUpDown nrQuantity;
+        private System.Windows.Forms.NumericUpDown nrPrice;
     }
 }

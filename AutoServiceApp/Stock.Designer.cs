@@ -63,7 +63,7 @@
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(182, 29);
             this.btnSearch.TabIndex = 2;
-            this.btnSearch.Text = "Search";
+            this.btnSearch.Text = "Пребарај";
             this.btnSearch.UseVisualStyleBackColor = true;
             // 
             // btnEdit
@@ -74,7 +74,7 @@
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(182, 27);
             this.btnEdit.TabIndex = 3;
-            this.btnEdit.Text = "Edit";
+            this.btnEdit.Text = "Измени";
             this.btnEdit.UseVisualStyleBackColor = true;
             // 
             // btnDelete
@@ -85,7 +85,7 @@
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(182, 27);
             this.btnDelete.TabIndex = 3;
-            this.btnDelete.Text = "Delete";
+            this.btnDelete.Text = "Избриши";
             this.btnDelete.UseVisualStyleBackColor = true;
             // 
             // btnAdd
@@ -96,7 +96,7 @@
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(182, 27);
             this.btnAdd.TabIndex = 3;
-            this.btnAdd.Text = "New";
+            this.btnAdd.Text = "Додади";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
@@ -107,9 +107,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(2, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 20);
+            this.label1.Size = new System.Drawing.Size(169, 20);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Search for products";
+            this.label1.Text = "Пребарувај продукти";
             // 
             // Stock
             // 

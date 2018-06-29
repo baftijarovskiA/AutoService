@@ -25,9 +25,13 @@ namespace AutoServiceApp
             DateTime dateTime = DateTime.Now;
             string[] month =
             {
-                "January","February","March","April","May","June","July","August","September","Octomber", "November", "December"
+                "Јануари","Февруари","Март","Април","Мај","Јуни","Јули","Август","Септември","Октомври", "Ноември", "Декември"
             };
-            lblDate.Text = string.Format("{0}, {1} {2:00}, {3}",dateTime.DayOfWeek, month[dateTime.Month-1], dateTime.Day,dateTime.Year);
+            string[] days =
+            {
+                "Понеделник", "Вторник","Среда","Четврток","Петок","Сабота","Недела"
+            };
+            lblDate.Text = string.Format("{0}, {1} {2:00}, {3}",days[(int)dateTime.DayOfWeek-1], month[dateTime.Month-1], dateTime.Day,dateTime.Year);
             lblTime.Text = string.Format("{0:00}:{1:00}:{2:00}", dateTime.Hour, dateTime.Minute,dateTime.Second);
         }
 

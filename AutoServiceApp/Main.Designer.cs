@@ -39,14 +39,14 @@
             this.button3 = new System.Windows.Forms.Button();
             this.selectedMenu = new System.Windows.Forms.Label();
             this.PanelDashboard = new System.Windows.Forms.Panel();
-            this.costumer = new AutoServiceApp.Costumer();
-            this.service = new AutoServiceApp.Service();
-            this.stock = new AutoServiceApp.Stock();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.dashboard = new AutoServiceApp.Dashboard();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.costumer = new AutoServiceApp.Costumer();
+            this.service = new AutoServiceApp.Service();
+            this.stock = new AutoServiceApp.Stock();
+            this.dashboard = new AutoServiceApp.Dashboard();
             this.menuStrip1.SuspendLayout();
             this.PanelDashboard.SuspendLayout();
             this.SuspendLayout();
@@ -75,20 +75,20 @@
             // changePinToolStripMenuItem
             // 
             this.changePinToolStripMenuItem.Name = "changePinToolStripMenuItem";
-            this.changePinToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.changePinToolStripMenuItem.Text = "Change pin";
+            this.changePinToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.changePinToolStripMenuItem.Text = "Промени пин";
             // 
             // quitToolStripMenuItem
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.quitToolStripMenuItem.Text = "Save changes";
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.quitToolStripMenuItem.Text = "Зачувај промени";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.exitToolStripMenuItem.Text = "Излез";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
@@ -110,7 +110,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(185, 63);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Exit";
+            this.button1.Text = "Излез";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -126,7 +126,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(185, 63);
             this.button2.TabIndex = 2;
-            this.button2.Text = "Service";
+            this.button2.Text = "Сервис";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -142,7 +142,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(185, 63);
             this.button3.TabIndex = 2;
-            this.button3.Text = "Stock";
+            this.button3.Text = "Магацин";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -171,6 +171,54 @@
             this.PanelDashboard.Size = new System.Drawing.Size(2000, 2000);
             this.PanelDashboard.TabIndex = 1;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkCyan;
+            this.panel2.Location = new System.Drawing.Point(4, 28);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(805, 2);
+            this.panel2.TabIndex = 2;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.DarkCyan;
+            this.panel1.Location = new System.Drawing.Point(0, 461);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(185, 2000);
+            this.panel1.TabIndex = 2;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.DarkCyan;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button5.Location = new System.Drawing.Point(0, 110);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(185, 63);
+            this.button5.TabIndex = 2;
+            this.button5.Text = "Почетна";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.DarkCyan;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button4.Location = new System.Drawing.Point(0, 179);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(185, 63);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "Клиенти";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            // 
             // costumer
             // 
             this.costumer.Location = new System.Drawing.Point(6, 34);
@@ -193,60 +241,12 @@
             this.stock.Size = new System.Drawing.Size(800, 400);
             this.stock.TabIndex = 3;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.DarkCyan;
-            this.panel2.Location = new System.Drawing.Point(4, 28);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(805, 2);
-            this.panel2.TabIndex = 2;
-            // 
             // dashboard
             // 
             this.dashboard.Location = new System.Drawing.Point(9, 37);
             this.dashboard.Name = "dashboard";
             this.dashboard.Size = new System.Drawing.Size(800, 400);
             this.dashboard.TabIndex = 1;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.DarkCyan;
-            this.panel1.Location = new System.Drawing.Point(0, 461);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(185, 2000);
-            this.panel1.TabIndex = 2;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.DarkCyan;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button5.Location = new System.Drawing.Point(0, 110);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(185, 63);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "Dashboard";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.DarkCyan;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button4.Location = new System.Drawing.Point(0, 179);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(185, 63);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Custumer";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // Main
             // 
@@ -266,7 +266,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Auto Service";
+            this.Text = "Авто Сервис";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.PanelDashboard.ResumeLayout(false);

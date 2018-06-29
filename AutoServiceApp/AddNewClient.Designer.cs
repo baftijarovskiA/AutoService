@@ -34,10 +34,10 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tbOther = new System.Windows.Forms.TextBox();
+            this.tbChassis = new System.Windows.Forms.TextBox();
+            this.tbYear = new System.Windows.Forms.TextBox();
+            this.tbPower = new System.Windows.Forms.TextBox();
             this.nrKilometers = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
             this.mbRegistration = new System.Windows.Forms.MaskedTextBox();
@@ -51,6 +51,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
+            this.tbEngine = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nrKilometers)).BeginInit();
             this.SuspendLayout();
@@ -60,20 +62,22 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 13);
+            this.label1.Size = new System.Drawing.Size(107, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Registration Plates:";
+            this.label1.Text = "Регистарски табли:";
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.tbEngine);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.tbOther);
+            this.groupBox1.Controls.Add(this.tbChassis);
+            this.groupBox1.Controls.Add(this.tbYear);
+            this.groupBox1.Controls.Add(this.tbPower);
             this.groupBox1.Controls.Add(this.nrKilometers);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.mbRegistration);
@@ -91,93 +95,93 @@
             this.groupBox1.Size = new System.Drawing.Size(346, 357);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Client";
+            this.groupBox1.Text = "Клиент";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 235);
+            this.label7.Location = new System.Drawing.Point(6, 262);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(104, 13);
+            this.label7.Size = new System.Drawing.Size(141, 13);
             this.label7.TabIndex = 13;
-            this.label7.Text = "Last Kilometers (km):";
+            this.label7.Text = "Последни километри (km):";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(6, 209);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(86, 13);
+            this.label8.Size = new System.Drawing.Size(83, 13);
             this.label8.TabIndex = 14;
-            this.label8.Text = "Chassis Number:";
+            this.label8.Text = "Број на шасија:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(6, 183);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(72, 13);
+            this.label9.Size = new System.Drawing.Size(76, 13);
             this.label9.TabIndex = 15;
-            this.label9.Text = "Power ( kW ):";
+            this.label9.Text = "Јачина ( kW ):";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(6, 157);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(32, 13);
+            this.label10.Size = new System.Drawing.Size(46, 13);
             this.label10.TabIndex = 16;
-            this.label10.Text = "Year:";
+            this.label10.Text = "Година:";
             // 
-            // textBox1
+            // tbOther
             // 
-            this.textBox1.Location = new System.Drawing.Point(140, 255);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 96);
-            this.textBox1.TabIndex = 9;
+            this.tbOther.Location = new System.Drawing.Point(140, 280);
+            this.tbOther.Multiline = true;
+            this.tbOther.Name = "tbOther";
+            this.tbOther.Size = new System.Drawing.Size(200, 71);
+            this.tbOther.TabIndex = 9;
             // 
-            // textBox2
+            // tbChassis
             // 
-            this.textBox2.Location = new System.Drawing.Point(140, 203);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 20);
-            this.textBox2.TabIndex = 7;
+            this.tbChassis.Location = new System.Drawing.Point(140, 203);
+            this.tbChassis.Name = "tbChassis";
+            this.tbChassis.Size = new System.Drawing.Size(200, 20);
+            this.tbChassis.TabIndex = 7;
             // 
-            // textBox3
+            // tbYear
             // 
-            this.textBox3.Location = new System.Drawing.Point(140, 150);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 20);
-            this.textBox3.TabIndex = 5;
+            this.tbYear.Location = new System.Drawing.Point(140, 150);
+            this.tbYear.Name = "tbYear";
+            this.tbYear.Size = new System.Drawing.Size(200, 20);
+            this.tbYear.TabIndex = 5;
             // 
-            // textBox4
+            // tbPower
             // 
-            this.textBox4.Location = new System.Drawing.Point(140, 177);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(200, 20);
-            this.textBox4.TabIndex = 6;
+            this.tbPower.Location = new System.Drawing.Point(140, 177);
+            this.tbPower.Name = "tbPower";
+            this.tbPower.Size = new System.Drawing.Size(200, 20);
+            this.tbPower.TabIndex = 6;
             // 
             // nrKilometers
             // 
-            this.nrKilometers.Location = new System.Drawing.Point(140, 228);
+            this.nrKilometers.Location = new System.Drawing.Point(153, 255);
             this.nrKilometers.Maximum = new decimal(new int[] {
             1000000000,
             0,
             0,
             0});
             this.nrKilometers.Name = "nrKilometers";
-            this.nrKilometers.Size = new System.Drawing.Size(200, 20);
+            this.nrKilometers.Size = new System.Drawing.Size(187, 20);
             this.nrKilometers.TabIndex = 8;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 262);
+            this.label6.Location = new System.Drawing.Point(6, 236);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(36, 13);
+            this.label6.Size = new System.Drawing.Size(80, 13);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Other:";
+            this.label6.Text = "Број на мотор:";
             // 
             // mbRegistration
             // 
@@ -212,27 +216,27 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(6, 131);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 13);
+            this.label5.Size = new System.Drawing.Size(43, 13);
             this.label5.TabIndex = 0;
-            this.label5.Text = "Model:";
+            this.label5.Text = "Модел:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(6, 105);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 13);
+            this.label4.Size = new System.Drawing.Size(43, 13);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Brand:";
+            this.label4.Text = "Марка:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(6, 79);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 13);
+            this.label3.Size = new System.Drawing.Size(56, 13);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Client\'s Last Name:";
+            this.label3.Text = "Презиме:";
             // 
             // tbClientFName
             // 
@@ -246,9 +250,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(6, 53);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 13);
+            this.label2.Size = new System.Drawing.Size(32, 13);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Client\'s First Name:";
+            this.label2.Text = "Име:";
             // 
             // btnCancel
             // 
@@ -256,7 +260,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(120, 28);
             this.btnCancel.TabIndex = 3;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "Откажи";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -266,9 +270,25 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(120, 28);
             this.btnSave.TabIndex = 4;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "Зачувај";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // tbEngine
+            // 
+            this.tbEngine.Location = new System.Drawing.Point(140, 229);
+            this.tbEngine.Name = "tbEngine";
+            this.tbEngine.Size = new System.Drawing.Size(200, 20);
+            this.tbEngine.TabIndex = 17;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(6, 283);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(58, 13);
+            this.label11.TabIndex = 18;
+            this.label11.Text = "Останато:";
             // 
             // AddNewClient
             // 
@@ -282,7 +302,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AddNewClient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Add Client";
+            this.Text = "Додади клиент";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nrKilometers)).EndInit();
@@ -311,9 +331,11 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox tbOther;
+        private System.Windows.Forms.TextBox tbChassis;
+        private System.Windows.Forms.TextBox tbYear;
+        private System.Windows.Forms.TextBox tbPower;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox tbEngine;
     }
 }

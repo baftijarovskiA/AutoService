@@ -39,17 +39,17 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(13, 358);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(299, 31);
+            this.label1.Size = new System.Drawing.Size(487, 31);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Service is not available.";
+            this.label1.Text = "Сервисот моментално не е достапен.";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(318, 365);
+            this.button1.Location = new System.Drawing.Point(506, 366);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(124, 23);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Learn more";
+            this.button1.Text = "Научи повеќе";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Service
